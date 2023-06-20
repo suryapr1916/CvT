@@ -21,6 +21,7 @@ test() {
         tools/test.py ${EXTRA_ARGS}
 }
 
+
 ############################ Main #############################
 GPUS=`nvidia-smi -L | wc -l`
 MASTER_PORT=9000

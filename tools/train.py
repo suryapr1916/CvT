@@ -144,7 +144,7 @@ def main():
 
         # evaluate on validation set
         logging.info('=> {} validate start'.format(head))
-        val_start = time.time()
+        
 
         if epoch >= config.TRAIN.EVAL_BEGIN_EPOCH:
             perf = test(
